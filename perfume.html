@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>향수 사이트 모음</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+      padding: 40px 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      width: 300px;
+      padding: 24px 20px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: transform 0.15s;
+    }
+    .card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #2d2d2d;
+    }
+    .card-desc {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 18px;
+    }
+    .card-btn {
+      margin-top: auto;
+      background: #1d6c5c;
+      color: #e1d5b5;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 18px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .card-btn:hover {
+      background: #e1d5b5;
+      color: #1d6c5c;
+    }
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        padding: 20px 4px;
+      }
+      .card {
+        width: 95vw;
+        max-width: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🌷나만의 향수 브랜드 큐레이션🌷</h1>
+  <div class="container">
+    <div class="card">
+      <div class="card-title">Masion Martin Margiela</div>
+      <div class="card-desc">성별의 경계를 뛰어넘는 Masion Margiela</div>
+      <a class="card-btn" href="https://www.maisonmargiela.com/ko-kr/maison-margiela/unisex/fragrances/모든-향수/" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">BYREDO</div>
+      <div class="card-desc">감각적인 북유럽 감성</div>
+      <a class="card-btn" href="https://www.byredo.com/us_en/" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">FREDERIC MALLE</div>
+      <div class="card-desc">조향사의 예술을 담은 향</div>
+      <a class="card-btn" href="https://www.fredericmalle.com" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">CREED</div>
+      <div class="card-desc">전통과 품격의 왕실 향수</div>
+      <a class="card-btn" href="https://www.creedfragrance.com" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">Kilian</div>
+      <div class="card-desc">퇴폐적이고 관능적인 향</div>
+      <a class="card-btn" href="https://www.bykilian.com" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">LE LABO</div>
+      <div class="card-desc">도시적인 빈티지 무드</div>
+      <a class="card-btn" href="https://www.lelabofragrances.com/?srsltid=AfmBOoqZgerKxd08jcQEAcgK1U8ZaXUqpkOwH4G00xhBfbzED0qVRBrq" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">ACQUA DI PARMA</div>
+      <div class="card-desc">햇살 같은 클래식 이탈리안</div>
+      <a class="card-btn" href="https://www.acquadiparma.com/en/at/?srsltid=AfmBOoq8U3nuWS2EY_-0dsqcnukyzfDNNRX645XQ1ZhsH4fN4uQjDuGz" target="_blank">바로가기</a>
+    </div>
+    <div class="card">
+      <div class="card-title">DIPTYQUE</div>
+      <div class="card-desc">시적이고 자연적인 향기</div>
+      <a class="card-btn" href="https://www.diptyqueparis.com/en_eu/" target="_blank">바로가기</a>
+    </div>
+  </div>
+</body>
+</html>
